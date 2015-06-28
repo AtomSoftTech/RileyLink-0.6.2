@@ -9489,8 +9489,19 @@ at 30/07/2012 17:04:24</description>
 <sheet>
 <plain>
 <text x="170.18" y="132.08" size="1.27" layer="95" font="vector">LIPO Battery</text>
-<text x="238.76" y="101.6" size="5.08" layer="94" ratio="15">Ordered 6/28/2015 OSHPark</text>
+<text x="238.76" y="-63.5" size="5.08" layer="94" ratio="15">Ordered 6/28/2015 OSHPark</text>
 <text x="284.48" y="127" size="6.4516" layer="94" ratio="15">NOTES</text>
+<text x="241.3" y="86.36" size="5.08" layer="94" ratio="15">New CC1110 Lib
+New BLE113-A Lib
+New TPS63031 Lib
+New 0915bM15A0001 Lib</text>
+<text x="241.3" y="55.88" size="5.08" layer="94" ratio="15">USB Switched (Same Position)
+C4 Moved Down
+Lipo Moved Up</text>
+<text x="241.3" y="33.02" size="5.08" layer="94" ratio="15">Traces under debug 
+connectors fixed</text>
+<text x="241.3" y="10.16" size="5.08" layer="94" ratio="15">All other traces checked, 
+thickened and angled.</text>
 </plain>
 <instances>
 <instance part="X1" gate="G$2" x="139.7" y="-7.62"/>
@@ -10232,9 +10243,9 @@ at 30/07/2012 17:04:24</description>
 </net>
 <net name="N$11" class="0">
 <segment>
-<wire x1="231.14" y1="-71.12" x2="358.14" y2="-71.12" width="1.778" layer="91"/>
-<wire x1="358.14" y1="-71.12" x2="358.14" y2="144.78" width="1.778" layer="91"/>
-<wire x1="358.14" y1="144.78" x2="231.14" y2="144.78" width="1.778" layer="91"/>
+<wire x1="231.14" y1="-71.12" x2="368.3" y2="-71.12" width="1.778" layer="91"/>
+<wire x1="368.3" y1="-71.12" x2="368.3" y2="144.78" width="1.778" layer="91"/>
+<wire x1="368.3" y1="144.78" x2="231.14" y2="144.78" width="1.778" layer="91"/>
 <wire x1="231.14" y1="144.78" x2="231.14" y2="-71.12" width="1.778" layer="91"/>
 </segment>
 </net>
@@ -10251,4 +10262,10 @@ at 30/07/2012 17:04:24</description>
 </errors>
 </schematic>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
