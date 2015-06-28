@@ -9489,6 +9489,8 @@ at 30/07/2012 17:04:24</description>
 <sheet>
 <plain>
 <text x="170.18" y="132.08" size="1.27" layer="95" font="vector">LIPO Battery</text>
+<text x="238.76" y="101.6" size="5.08" layer="94" ratio="15">Ordered 6/28/2015 OSHPark</text>
+<text x="284.48" y="127" size="6.4516" layer="94" ratio="15">NOTES</text>
 </plain>
 <instances>
 <instance part="X1" gate="G$2" x="139.7" y="-7.62"/>
@@ -10226,6 +10228,14 @@ at 30/07/2012 17:04:24</description>
 <pinref part="BLE113-DEBUG" gate="G$1" pin="DC"/>
 <wire x1="83.82" y1="-12.7" x2="-7.62" y2="-12.7" width="0.1524" layer="91"/>
 <pinref part="U$4" gate="G$1" pin="P2_2"/>
+</segment>
+</net>
+<net name="N$11" class="0">
+<segment>
+<wire x1="231.14" y1="-71.12" x2="358.14" y2="-71.12" width="1.778" layer="91"/>
+<wire x1="358.14" y1="-71.12" x2="358.14" y2="144.78" width="1.778" layer="91"/>
+<wire x1="358.14" y1="144.78" x2="231.14" y2="144.78" width="1.778" layer="91"/>
+<wire x1="231.14" y1="144.78" x2="231.14" y2="-71.12" width="1.778" layer="91"/>
 </segment>
 </net>
 </nets>
