@@ -8826,6 +8826,15 @@ at 30/07/2012 17:04:24</description>
 <text x="-2.794" y="-38.862" size="1.6764" layer="95">GND</text>
 <text x="-17.78" y="40.64" size="2.1844" layer="95">&gt;NAME</text>
 <text x="0" y="-15.24" size="2.1844" layer="95" rot="R90">CC1110</text>
+<text x="-9.906" y="-28.702" size="1.4224" layer="98">DC</text>
+<text x="-9.906" y="-26.162" size="1.4224" layer="98">DD</text>
+<text x="-9.906" y="11.938" size="1.4224" layer="98">SSN</text>
+<text x="-9.906" y="17.018" size="1.4224" layer="98">MISO</text>
+<text x="-9.906" y="14.478" size="1.4224" layer="98">MOSI</text>
+<text x="-9.906" y="9.398" size="1.4224" layer="98">SCK</text>
+<text x="-9.906" y="-0.762" size="1.4224" layer="98">GREEN_LED</text>
+<text x="-9.906" y="-3.302" size="1.4224" layer="98">RED_LED</text>
+<text x="-9.906" y="22.098" size="1.4224" layer="98">ATEST</text>
 </symbol>
 <symbol name="TPS63031">
 <pin name="VINA" x="-10.16" y="15.24" length="middle"/>
@@ -9561,7 +9570,7 @@ thickened and angled.</text>
 <instance part="SUPPLY10" gate="GND" x="-45.72" y="93.98" rot="R270"/>
 <instance part="LED4" gate="G$1" x="-30.48" y="109.22" rot="R270"/>
 <instance part="LED5" gate="G$1" x="-30.48" y="93.98" rot="R270"/>
-<instance part="SUPPLY11" gate="GND" x="-45.72" y="116.84" rot="R270"/>
+<instance part="SUPPLY11" gate="GND" x="-45.72" y="109.22" rot="R270"/>
 <instance part="SUPPLY12" gate="GND" x="0" y="-45.72" rot="R270"/>
 <instance part="LED2" gate="G$1" x="7.62" y="-45.72" rot="R270"/>
 <instance part="R12" gate="G$1" x="15.24" y="-45.72"/>
@@ -9697,7 +9706,7 @@ thickened and angled.</text>
 <pinref part="U$4" gate="G$1" pin="GND"/>
 </segment>
 <segment>
-<wire x1="-43.18" y1="116.84" x2="-35.56" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="-43.18" y1="109.22" x2="-35.56" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="LED4" gate="G$1" pin="C"/>
 <pinref part="SUPPLY11" gate="GND" pin="GND"/>
 </segment>
@@ -10044,8 +10053,8 @@ thickened and angled.</text>
 <net name="DD" class="0">
 <segment>
 <pinref part="CC1110-DEBUG" gate="G$1" pin="DD"/>
-<wire x1="-10.16" y1="60.96" x2="43.18" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="55.88" x2="43.18" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="-10.16" y1="60.96" x2="43.18" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="60.96" x2="43.18" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="17.78" x2="53.34" y2="17.78" width="0.1524" layer="91"/>
 <pinref part="U$5" gate="G$1" pin="P2.1"/>
 </segment>
@@ -10053,9 +10062,9 @@ thickened and angled.</text>
 <net name="DC" class="0">
 <segment>
 <wire x1="53.34" y1="15.24" x2="40.64" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="15.24" x2="40.64" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="15.24" x2="40.64" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="CC1110-DEBUG" gate="G$1" pin="DC"/>
-<wire x1="40.64" y1="53.34" x2="-10.16" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="58.42" x2="-10.16" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="U$5" gate="G$1" pin="P2.2"/>
 </segment>
 </net>

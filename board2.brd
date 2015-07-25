@@ -15,11 +15,11 @@
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -171,6 +171,40 @@
 <vertex x="26.0604" y="7.0612"/>
 <vertex x="26.035" y="10.7188"/>
 </polygon>
+<text x="1.905" y="15.9766" size="0.6096" layer="21">RED</text>
+<text x="1.8034" y="18.1102" size="0.6096" layer="21">330</text>
+<text x="4.8006" y="15.5194" size="0.6096" layer="21">2K</text>
+<text x="7.4676" y="16.6116" size="0.6096" layer="21">CHG</text>
+<text x="6.9342" y="12.4968" size="0.6096" layer="21">4.7UF</text>
+<text x="12.3952" y="17.5768" size="0.6096" layer="21" rot="R90">4.7UF</text>
+<text x="14.478" y="13.6144" size="0.6096" layer="21" rot="R90">27PF</text>
+<text x="19.812" y="18.034" size="0.6096" layer="21" rot="R180">27PF</text>
+<text x="27.2034" y="20.4978" size="0.6096" layer="21" rot="R180">10UF</text>
+<text x="31.3436" y="20.0406" size="0.6096" layer="21" rot="R180">1.5UH</text>
+<text x="14.7828" y="11.6078" size="0.6096" layer="21" rot="R180">0OHM</text>
+<text x="15.7734" y="9.4742" size="0.6096" layer="21" rot="R180">0OHM</text>
+<text x="17.1196" y="4.191" size="0.6096" layer="21" rot="R90">100NF</text>
+<text x="19.2278" y="4.1402" size="0.6096" layer="21" rot="R90">100NF</text>
+<text x="24.3586" y="1.8288" size="0.6096" layer="21">1UF</text>
+<text x="20.0152" y="1.6764" size="0.6096" layer="21" rot="R90">56K</text>
+<text x="23.5204" y="1.27" size="0.6096" layer="21" rot="R90">100NF</text>
+<text x="20.7518" y="15.9512" size="0.6096" layer="21" rot="R270">100NF</text>
+<text x="16.383" y="11.8872" size="0.6096" layer="21">100NF</text>
+<text x="29.9212" y="8.3058" size="0.6096" layer="21" rot="R270">100NF</text>
+<text x="23.876" y="14.5288" size="0.6096" layer="21">100UF</text>
+<text x="30.5816" y="10.3378" size="0.6096" layer="21">470</text>
+<text x="30.4038" y="13.7414" size="0.6096" layer="21">470</text>
+<text x="33.9852" y="14.5796" size="0.6096" layer="21" rot="R90">BLUE</text>
+<text x="51.181" y="17.526" size="0.6096" layer="21" rot="R90">BLUE</text>
+<text x="51.1556" y="21.3614" size="0.6096" layer="21" rot="R90">GREEN</text>
+<text x="35.4584" y="14.7066" size="0.6096" layer="21" rot="R90">GREEN</text>
+<text x="49.3268" y="18.9484" size="0.6096" layer="21" rot="R90">470</text>
+<text x="49.3014" y="22.0726" size="0.6096" layer="21" rot="R90">470</text>
+<text x="31.1912" y="16.9418" size="0.6096" layer="21" rot="R180">SW</text>
+<text x="33.6804" y="29.083" size="0.6096" layer="21" rot="R180">SW2</text>
+<text x="22.225" y="23.8506" size="0.6096" layer="21" rot="R180">LIPO</text>
+<text x="43.7388" y="27.2034" size="0.6096" layer="21" rot="R180">BLE</text>
+<text x="25.9588" y="10.8458" size="0.6096" layer="21" rot="R180">CC1110</text>
 </plain>
 <libraries>
 <library name="discrete">
